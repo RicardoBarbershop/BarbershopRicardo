@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Ricardo Barbershop - A sua barbearia de confiança desde 2017. Conheça nossa equipe e serviços.">
+  <meta name="keywords" content="barbearia, cortes de cabelo, barbearia em [cidade], Ricardo Barbershop">
+  <title>Barbershop Ricardo</title>
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="shortcut icon" href="/static/img/logo.png" type="image/x-icon">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
+</head>
+
+<body>
+  <main class="mx-auto">
+    <section id="navbar"
+      class="relative bg-center bg-no-repeat bg-cover bg-[url('static/img/image.jpeg')] bg-gray-600 bg-blend-multiply">
+      <nav class="bg-transparent border-transparent dark:bg-transparent">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="/static/img/logo.png" class="h-12" alt="Flowbite Logo" />
+            <span class="self-center text-2xl font-semibold whitespace-nowrap text-white hidden md:block">Barbershop Ricardo</span>
+          </a>
+          <button data-collapse-toggle="navbar-default" type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-default" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15" />
+            </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-transparent rounded-lg bg-transparent md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent dark:bg-transparent md:dark:bg-transparent dark:border-transparent">
+              <li>
+                <a href="index.html" class="block py-2 px-3 text-white rounded hover:text-yellow-500 md:hover:text-yellow-500 md:bg-transparent md:p-0 dark:text-white md:dark:text-yellow-500" aria-current="page">Início</a>
+              </li>
+              <li>
+                <a href="#team" class="block py-2 px-3 text-white rounded hover:text-yellow-500 md:hover:text-yellow-500 md:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:text-yellow-500">Equipe</a>
+              </li>
+              <li>
+                <a href="#services" class="block py-2 px-3 text-white rounded hover:text-yellow-500 md:hover:text-yellow-500 md:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:text-yellow-500">Serviços</a>
+              </li>
+              <li>
+                <a href="#products" class="block py-2 px-3 text-white rounded hover:text-yellow-500 md:hover:text-yellow-500 md:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:text-yellow-500">Produtos</a>
+              </li>
+              <li>
+                <a href="#contact" class="block py-2 px-3 text-white rounded hover:text-yellow-500 md:hover:text-yellow-500 md:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:text-yellow-500">Contato</a>
+              </li>
+            </ul>
+          </div>
+          
+          </div>
+        </div>
+      </nav>
+
+      <!--Home-->
+      <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Barbershop Ricardo</h1>
+        <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">A Ricardo Barbershop se deu
+          início em 2017 conhecida como Barbearia da Garagem, em um espaço comum de garagem nasceu a Ricardo Barbershop,
+          venha nos conhecer!</p>
+        <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+        </div>
+      </div>
+    </section>
+
+    <section class="py-12 bg-gray-50" id="team">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <h2 class="text-base font-semibold text-yellow-500 tracking-wide uppercase">Nossa Equipe</h2>
+          <p class="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl lg:text-6xl">Conheça o Time</p>
+          <p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">Pessoas dedicadas a entregar o melhor serviço possível.
+          </p>
+        </div>
+        <div class="mt-10">
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+            <!-- Ricardo -->
+            <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center">
+              <img class="w-32 h-32 rounded-full border-4 border-yellow-500 object-cover mb-4"
+                src="/static/img/ricardo.jpeg" alt="Ricardo">
+              <div class="text-center">
+                <h3 class="text-xl font-semibold text-gray-900">Ricardo</h3>
+                <p class="text-gray-500">Especialidade <span class="text-yellow-600">degradê</span> e <span
+                    class="text-yellow-600">desenhos</span></p>
+                <p class="mt-2 text-gray-600">Olá pessoal, me chamo Ricardo e entrei no ramo em 2017 quando decidi que
+                  seria dono do meu próprio negócio. O começo não foi fácil, mas o céu é o limite.</p>
+              </div>
+            </div>
+            <!-- Rubens -->
+            <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center">
+              <img class="w-32 h-32 rounded-full border-4 border-yellow-500 object-cover mb-4"
+                src="/static/img/rubens.jpeg" alt="Rubens">
+              <div class="text-center">
+                <h3 class="text-xl font-semibold text-gray-900">Rubens</h3>
+                <p class="text-gray-500">Especialista em <span class="text-yellow-600"> Corte Social</span></p>
+                <p class="mt-2 text-gray-600">Olá, me chamo Rubens e com mais de 30 anos no ramo, sou especialista em
+                  corte social. Amo o que faço e estou sempre aprendendo.</p>
+              </div>
+            </div>
+            <!-- Matheus -->
+            <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center">
+              <img class="w-32 h-32 rounded-full border-4 border-yellow-500 object-cover mb-4"
+                src="/static/img/matheus.jpeg" alt="Matheus">
+              <div class="text-center">
+                <h3 class="text-xl font-semibold text-gray-900">Matheus</h3>
+                <p class="text-gray-500">Especialidade em <span class="text-yellow-600">degradê</span></p>
+                <p class="mt-2 text-gray-600">Olá, sou Matheus, estou começando minha jornada no ramo da barbearia e sou
+                  apaixonado por aprender e evoluir a cada dia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="video" class="py-12">
+      <div class="max-w-4xl mx-auto">
+        <div class="text-center mb-8">
+          <h2 class="text-3xl font-bold text-gray-900">Assista ao Nosso Vídeo</h2>
+          <p class="text-lg text-gray-600 mt-2">Veja o que temos a oferecer e fique por dentro dos nossos serviços!</p>
+        </div>
+        <div class="video-container shadow-effect">
+          <iframe src="https://www.youtube.com/embed/BsUT_F52ZfQ?autoplay=1" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="bg-gray-50 py-12">
+      <div class="text-center">
+        <h2 class="text-base font-semibold text-yellow-500 tracking-wide uppercase">Nossos Serviços</h2>
+        <p class="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl lg:text-6xl">Explore Nossos Pacotes</p>
+        <p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">Oferecemos uma variedade de serviços para atender todas
+          as suas necessidades de cuidado pessoal.</p>
+      </div>
+
+      <div class="mt-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <ul class="list-disc list-inside space-y-4">
+          <li class="text-lg font-medium text-gray-800">
+            <span class="inline-flex items-center mr-2 text-yellow-500">📍</span> Combo cabelo + barba + sobrancelhas
+          </li>
+          <li class="text-lg font-medium text-gray-800">
+            <span class="inline-flex items-center mr-2 text-yellow-500">📍</span> Combo cabelo + barba + sobrancelhas +
+            tintura (no cabelo e na barba)
+          </li>
+          <li class="text-lg font-medium text-gray-800">
+            <span class="inline-flex items-center mr-2 text-yellow-500">📍</span> Combo cabelo + alisamento +
+            sobrancelhas
+          </li>
+          <li class="text-lg font-medium text-gray-800">
+            <span class="inline-flex items-center mr-2 text-yellow-500">📍</span> Combo cabelo + alisamento +
+            sobrancelhas + tintura
+          </li>
+          <li class="text-lg font-medium text-gray-800">
+            <span class="inline-flex items-center mr-2 text-yellow-500">📍</span> Combo cabelo + sobrancelhas + tintura
+          </li>
+          <li class="text-lg font-medium text-gray-800">
+            <span class="inline-flex items-center mr-2 text-yellow-500">📍</span> Combo cabelo + barba + sobrancelha +
+            tintura
+          </li>
+          <li class="text-lg font-medium text-gray-800">
+            <span class="inline-flex items-center mr-2 text-yellow-500">📍</span> Combo cabelo + luzes + sobrancelhas
+          </li>
+          <li class="text-lg font-medium text-gray-800">
+            <span class="inline-flex items-center mr-2 text-yellow-500">📍</span> Só tintura
+          </li>
+          <li class="text-lg font-medium text-gray-800">
+            <span class="inline-flex items-center mr-2 text-yellow-500">📍</span> Corte simples
+          </li>
+          <li class="text-lg font-medium text-gray-800">
+            <span class="inline-flex items-center mr-2 text-yellow-500">📍</span> Corte + máquina + tesoura
+          </li>
+          <li class="text-lg font-medium text-gray-800">
+            <span class="inline-flex items-center mr-2 text-yellow-500">📍</span> Corte navalhado
+          </li>
+          <li class="text-lg font-medium text-gray-800">
+            <span class="inline-flex items-center mr-2 text-yellow-500">📍</span> Só luzes
+          </li>
+          <li class="text-lg font-medium text-gray-800">
+            <span class="inline-flex items-center mr-2 text-yellow-500">📍</span> Alisamento
+          </li>
+          <li class="text-lg font-medium text-gray-800">
+            <span class="inline-flex items-center mr-2 text-yellow-500">📍</span> Corte + desenho (a partir de)
+          </li>
+          <li class="text-lg font-medium text-gray-800">
+            <span class="inline-flex items-center mr-2 text-yellow-500">📍</span> Só barba
+          </li>
+          <li class="text-lg font-medium text-gray-800">
+            <span class="inline-flex items-center mr-2 text-yellow-500">📍</span> Barba desenhada
+          </li>
+          <li class="text-lg font-medium text-gray-800">
+            <span class="inline-flex items-center mr-2 text-yellow-500">📍</span> Só pezinho
+          </li>
+          <li class="text-lg font-medium text-gray-800">
+            <span class="inline-flex items-center mr-2 text-yellow-500">📍</span> Sobrancelha (na navalha)
+          </li>
+          <li class="text-lg font-medium text-gray-800">
+            <span class="inline-flex items-center mr-2 text-yellow-500">📍</span> Só penteado simples
+          </li>
+          <li class="text-lg font-medium text-gray-800">
+            <span class="inline-flex items-center mr-2 text-yellow-500">📍</span> Depilação de nariz e orelha com cera
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="products" class="bg-gray-50 py-12">
+      <div class="text-center">
+        <h2 class="text-base font-semibold text-yellow-500 tracking-wide uppercase">Nossos Produtos</h2>
+        <p class="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl lg:text-6xl">Aproveite também nossos produtos
+        </p>
+        <p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">Oferecemos uma variedade de produtos para atender todas
+          as suas necessidades.</p>
+      </div>
+
+
+      <div class="mt-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Galeria de Imagens -->
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+          <div class="relative group">
+            <img class="h-80 w-full object-cover rounded-lg" src="/static/img/gel.jpeg" alt="Produto 1">
+            <div
+              class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <span class="text-white text-xl font-bold">Gel</span>
+            </div>
+          </div>
+          <div class="relative group">
+            <img class="h-80 w-full object-cover rounded-lg" src="/static/img/cera.jpeg" alt="Produto 2">
+            <div
+              class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <span class="text-white text-xl font-bold">Cera Cristalina</span>
+            </div>
+          </div>
+          <div class="relative group">
+            <img class="h-80 w-full object-cover rounded-lg" src="/static/img/escova-2.jpeg" alt="Produto 3">
+            <div
+              class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <span class="text-white text-xl font-bold">Escova</span>
+            </div>
+          </div>
+          <div class="relative group">
+            <img class="h-80 w-full object-cover rounded-lg" src="/static/img/escova.jpeg" alt="Produto 4">
+            <div
+              class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <span class="text-white text-xl font-bold">Escova</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lista de Produtos à Venda -->
+        <div class="mt-12">
+          <h2 class="text-3xl font-extrabold text-gray-900 mb-6">Aqui Temos:</h2>
+          <ul class="list-disc list-inside space-y-4 text-lg text-gray-800">
+            <li class="flex items-center">
+              <span class="inline-flex items-center mr-2 text-yellow-500">🚨</span> Gel cola
+            </li>
+            <li class="flex items-center">
+              <span class="inline-flex items-center mr-2 text-yellow-500">🚨</span> Pomada
+            </li>
+            <li class="flex items-center">
+              <span class="inline-flex items-center mr-2 text-yellow-500">🚨</span> Escovinhas
+            </li>
+            <li class="flex items-center">
+              <span class="inline-flex items-center mr-2 text-yellow-500">🚨</span> Máquina de cortar cabelo
+            </li>
+            <li class="flex items-center">
+              <span class="inline-flex items-center mr-2 text-yellow-500">🚨</span> Máquina de acabamento
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <h2 class="text-center h2 mt-10 text-yellow-600">(Consulte nossos valores)</h2>
+    </section>
+
+    <section id="contact" class="bg-gray-100 py-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Título -->
+        <div class="text-center">
+          <h2 class="text-base font-semibold text-yellow-500 tracking-wide uppercase">Nos Contate</h2>
+          <p class="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl lg:text-6xl">Entre em Contato</p>
+          <p class="max-w-3xl mt-5 mx-auto text-xl text-gray-600">Estamos dedicados a oferecer o melhor serviço para
+            você. Entre em contato para agendar uma visita ou esclarecer dúvidas.</p>
+        </div>
+
+        <!-- Informações de Contato -->
+        <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-12">
+          <!-- Endereço -->
+          <div class="bg-dark p-6 rounded-lg shadow-lg border border-gray-200">
+            <h3 class="text-2xl font-semibold text-gray-900 mb-4">Endereço</h3>
+            <p class="text-lg text-gray-700">Rua Santana 431, Agenor de Campos, Mongaguá, SP</p>
+          </div>
+
+
+          <!-- Contato -->
+          <div class="bg-dark p-6 rounded-lg shadow-lg border border-gray-200">
+            <h3 class="text-2xl font-semibold text-gray-900 mb-4">Contato</h3>
+            <p class="text-lg text-gray-700">Telefone: <a href="tel:+5513991056918"
+                class="text-yellow-500 hover:underline">13 99105-6918</a></p>
+            <p class="text-lg text-gray-700">Instagram: <span class="text-yellow-500">ainda com nome antigo, vou
+                mudar</span></p>
+          </div>
+        </div>
+
+        <section id="map" class="py-12">
+          <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-8">
+              <h2 class="text-3xl font-bold text-gray-900">Encontre-nos Aqui</h2>
+              <p class="text-lg text-gray-600 mt-2">Veja nossa localização no mapa e venha nos visitar!</p>
+            </div>
+            <div class="map-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3641.2677622052324!2d-46.69172922456626!3d-24.127232978415165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce28163252d573%3A0xac167fd99462d721!2sR.%20Santana%2C%20431%20-%20Balneario%20Regina%20Maria%2C%20Mongagu%C3%A1%20-%20SP%2C%2011730-000!5e0!3m2!1sen!2sbr!4v1722609513181!5m2!1sen!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </div>
+        </section>
+
+        <div class="flex justify-center items-center mt-12">
+          <div class="icon-wrapper mr-6">
+            <i class="bi bi-clock"></i>
+          </div>
+          <div class="bg-dark p-6 rounded-lg shadow-lg max-w-md w-full">
+            <h3 class="text-2xl font-semibold text-dark mb-4">Horário de Funcionamento</h3>
+            <p class="text-lg text-dark">
+              Domingo: 8:00 - 14:00<br>
+              Segunda: 8:00 - 18:00<br>
+              Terça: 8:00 - 19:30<br>
+              Quarta: 8:00 - 19:30<br>
+              Quinta: 8:00 - 19:30<br>
+              Sexta: 8:00 - 19:30<br>
+              Sábado: 8:00 - 19:30
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Redes Sociais -->
+      <div class="mt-12 flex justify-center space-x-6">
+        <a href="https://www.facebook.com" target="_blank" class="text-yellow-500 hover:text-yellow-600 text-4xl">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank" class="text-yellow-500 hover:text-yellow-600 text-4xl">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://wa.me/5511999999999" target="_blank" class="text-yellow-500 hover:text-yellow-600 text-4xl">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+      </div>
+
+
+      </div>
+    </section>
+
+    <!-- Seção da Galeria -->
+    <section id="gallery" class="py-12">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="grid gap-4">
+          <div class="relative overflow-hidden rounded-lg">
+            <img class="h-auto max-w-full transition-transform duration-300 transform hover:scale-105 shadow-lg"
+              src="/static/img/image.jpeg" alt="Imagem 1">
+          </div>
+          <div class="relative overflow-hidden rounded-lg">
+            <img class="h-auto max-w-full transition-transform duration-300 transform hover:scale-105 shadow-lg"
+              src="/static/img/2.jpeg" alt="Imagem 2">
+          </div>
+          <div class="relative overflow-hidden rounded-lg">
+            <img class="h-auto max-w-full transition-transform duration-300 transform hover:scale-105 shadow-lg"
+              src="/static/img/3.jpeg" alt="Imagem 3">
+          </div>
+        </div>
+        <div class="grid gap-4">
+          <div class="relative overflow-hidden rounded-lg">
+            <img class="h-auto max-w-full transition-transform duration-300 transform hover:scale-105 shadow-lg"
+              src="/static/img/6.jpeg" alt="Imagem 4">
+          </div>
+          <div class="relative overflow-hidden rounded-lg">
+            <img class="h-auto max-w-full transition-transform duration-300 transform hover:scale-105 shadow-lg"
+              src="/static/img/7.jpeg" alt="Imagem 5">
+          </div>
+          <div class="relative overflow-hidden rounded-lg">
+            <img class="h-auto max-w-full transition-transform duration-300 transform hover:scale-105 shadow-lg"
+              src="/static/img/8.jpeg" alt="Imagem 6">
+          </div>
+        </div>
+        <div class="grid gap-4">
+          <div class="relative overflow-hidden rounded-lg">
+            <img class="h-auto max-w-full transition-transform duration-300 transform hover:scale-105 shadow-lg"
+              src="/static/img/10.jpeg" alt="Imagem 7">
+          </div>
+          <div class="relative overflow-hidden rounded-lg">
+            <img class="h-auto max-w-full transition-transform duration-300 transform hover:scale-105 shadow-lg"
+              src="/static/img/11.jpeg" alt="Imagem 8">
+          </div>
+          <div class="relative overflow-hidden rounded-lg">
+            <img class="h-auto max-w-full transition-transform duration-300 transform hover:scale-105 shadow-lg"
+              src="/static/img/12.jpeg" alt="Imagem 9">
+          </div>
+        </div>
+        <div class="grid gap-4">
+          <div class="relative overflow-hidden rounded-lg">
+            <img class="h-auto max-w-full transition-transform duration-300 transform hover:scale-105 shadow-lg"
+              src="/static/img/13.jpeg" alt="Imagem 10">
+          </div>
+          <div class="relative overflow-hidden rounded-lg">
+            <img class="h-auto max-w-full transition-transform duration-300 transform hover:scale-105 shadow-lg"
+              src="/static/img/14.jpeg" alt="Imagem 11">
+          </div>
+          <div class="relative overflow-hidden rounded-lg">
+            <img class="h-auto max-w-full transition-transform duration-300 transform hover:scale-105 shadow-lg"
+              src="/static/img/15.jpeg" alt="Imagem 12">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
+        <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/"
+              class="hover:underline">Flowbite™</a>. All Rights Reserved.
+          </span>
+          <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+            <li>
+              <a href="#" class="hover:underline me-4 md:me-6">About</a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+
+    </section>
+  </main>
+
+  <!-- Botão para rolar para cima -->
+  <button id="scrollToTopBtn"
+    class="scroll-to-top fixed bottom-4 right-4 bg-yellow-500 text-white px-4 py-2 rounded-full shadow-lg hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-yellow-400 transition ease-in-out duration-300">
+    <i class="bi bi-caret-up"></i>
+  </button>
+
+  <!-- Botão flutuante do WhatsApp -->
+  <a href="https://wa.me/5511999999999" target="_blank" id="whatsappBtn"
+    class="whatsapp-btn bg-yellow-500 text-white p-3 rounded-full shadow-lg hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-400 transition ease-in-out duration-300 flex items-center">
+    <h1><i class="bi bi-whatsapp"></i></h1>
+  </a>
+  <!-- Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const menuButton = document.querySelector('[data-collapse-toggle]');
+      const navbar = document.getElementById('navbar-default');
+
+      menuButton.addEventListener('click', function () {
+        navbar.classList.toggle('hidden');
+      });
+    });
+  </script>
+
+  <script>
+    // Seleciona o botão
+    const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+    // Mostra ou oculta o botão dependendo da rolagem da página
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) { // Ajuste a posição do botão conforme necessário
+        scrollToTopBtn.style.display = 'block';
+      } else {
+        scrollToTopBtn.style.display = 'none';
+      }
+    });
+
+    // Rola para o topo quando o botão é clicado
+    scrollToTopBtn.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  </script>
+</body>
+
+</html>
